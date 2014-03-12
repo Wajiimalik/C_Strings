@@ -24,16 +24,6 @@ int strcomp(char * s1, char * s2) {
 
 int  main()
 {
-	//conversion of string to int
-	char str[20];
-	int no;
-
-	puts("Enter no: ");
-	cin.get(str,20,'\n');
-
-	no = atoi(str);
-	printf("%d", no);
-
 	//stricmp
 	int cmp;
 	cmp=strcomp( "choozi" ,"jiya");
@@ -43,8 +33,8 @@ int  main()
     else if( cmp>0 )
         cout<<" S1>S2 : S1 is greater than S2 ";
     else
+
         cout<<" S1<S2 : S1 is less than S2 ";
    
-	int x; cin>>x;
 	return 0;
 }
