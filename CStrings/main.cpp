@@ -44,7 +44,5 @@ int  main()
         cout<<" S1>S2 ";
     else
         cout<<" S1<S2 ";
-    
-	int x; cin>>x;
 	return 0;
 }
