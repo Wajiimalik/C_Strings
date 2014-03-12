@@ -24,16 +24,6 @@ int strcomp(char * s1, char * s2) {
 
 int  main()
 {
-	//conversion of string to int
-	char str[20];
-	int no;
-
-	puts("Enter no: ");
-	cin.get(str,20,'\n');
-
-	no = atoi(str);
-	printf("%d", no);
-
 	//stricmp
 	int cmp;
 	cmp=strcomp( "choozi" ,"jiya");
