@@ -1,6 +1,7 @@
 CStrings/Debug
 Debug
 ipch
+*.user
 *.opensdf
 *.sdf
 *.suo
