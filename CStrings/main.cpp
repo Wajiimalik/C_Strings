@@ -8,6 +8,7 @@ using namespace std;
 
 int  main()
 {
+	//conversion of string to int
 	char str[20];
 	int no;
 	puts("Enter no: ");
