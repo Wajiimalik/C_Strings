@@ -39,12 +39,12 @@ int  main()
 	cmp=strcomp( "choozi" ,"jiya");
     
     if(cmp==0 )
-        cout<<"Equal";
+        cout<<"Both are Equal";
     else if( cmp>0 )
-        cout<<" S1>S2 ";
+        cout<<" S1>S2 : S1 is greater than S2 ";
     else
-        cout<<" S1<S2 ";
-    
+        cout<<" S1<S2 : S1 is less than S2 ";
+   
 	int x; cin>>x;
 	return 0;
 }
